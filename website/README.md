@@ -5,9 +5,9 @@
 ```
 website/
 ├── index.html              ← Main landing page
-├── team.html               ← Team page (loads from data/team.json)
+├── team.html               ← Team page (loads from data/team.js)
 ├── data/
-│   └── team.json           ← ✏️ EDIT THIS FILE to add/remove team members
+│   └── team.js             ← ✏️ EDIT THIS FILE to add/remove team members
 └── images/
     └── team/               ← Drop team member photos here
         ├── jane-smith.jpg
@@ -21,7 +21,7 @@ website/
    - Recommended: square crop, at least 300x300px
    - Supported: .jpg, .png, .webp
 
-**2. Open `data/team.json`** and add a new entry:
+**2. Open `data/team.js`** and add a new entry inside the `window.TEAM = [ ... ]` list:
 
 ```json
 {
@@ -51,7 +51,7 @@ website/
 
 ### Adding a New Department
 
-Just use a new `department` value in team.json — the filter button appears automatically on the team page. No code changes needed.
+Just use a new `department` value in team.js — the filter button appears automatically on the team page. No code changes needed.
 
 ```json
 { "department": "Advisory Board" }
@@ -108,7 +108,7 @@ Same concept, slightly different UI:
 
 ## Local Development
 
-Just open `index.html` in a browser. For the team page to load `team.json`, you need a local server (browsers block fetch from `file://`):
+Just open `index.html` in a browser. The team data is a script file (`data/team.js`), so the pages work straight from disk; a local server is optional:
 
 ```bash
 # Python (any version)
