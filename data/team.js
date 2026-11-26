@@ -3,7 +3,7 @@
 // It is a .js file (not .json) so the pages also work when opened straight from disk.
 window.TEAM = [
     {
-        "name": "Kamaljeet Kharbanda",
+        "name": "Kamaljeet Singh",
         "role": "AI Advisor & Instructor",
         "department": "Instructors",
         "bio": "Technology leader by day, AI builder by night. 15+ years leading product delivery, platform engineering, and program execution across enterprise teams, Harvard Masters in Data Science/AI.\n\nBut what I love most is building. I personally architect and code multi-agent systems, RAG pipelines, and full-stack AI applications. StockTickers.ai, now in beta, is one I built because I wanted to, not because I had to, and I'm helping my daughter Ishveen build ClassroomBot.ai.\n\nI started AIMLEngineers.com to help others build AI products that hold up in production. I teach the AI Product Engineering course, from first decision to the cloud, and advise teams on what to build and how to scale it.\n\nI write about what I build. Published on multi-agent architectures, spec-driven development, and the consumer AI technology stack. If I'm not leading a product, running a program, or building a platform, I'm probably coding a side project or writing about one.",
